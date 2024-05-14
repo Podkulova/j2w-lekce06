@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: white;
+    color: darkslategray;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nabidka {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nabidka > a {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    box-shadow: 0 0 10px darkgray;
+}
+
+.nabidka > a:hover {
+    border-color: darkslategray;
+}
+
+.nabidka--cokolada {
+    background-color: chocolate;
+}
+
+.nabidka--alkohol {
+    background-color: crimson;
+}
+
+.kosik {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px darkgray;
+}
+
+.kosik .radek {
+    display: block;
+    margin-top: 1em;
+}
+
+.kosik .skupina {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kosik .controls.radek {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+header {
+    margin-bottom: 2rem;
+}
